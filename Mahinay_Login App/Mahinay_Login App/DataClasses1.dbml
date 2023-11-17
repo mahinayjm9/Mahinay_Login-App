@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_login" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-14J426P\SQLEXPRESS;Initial Catalog=db_login;Integrated Security=True" SettingsObjectName="Mahinay_Login_App.Properties.Settings" SettingsPropertyName="db_loginConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.info" Member="infos">
+    <Type Name="info">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Passwords" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usertype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_login" Method="sp_login">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Passwords" Parameter="passwords" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="sp_loginResult">
+      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Passwords" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="usertype" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_type" Method="sp_type">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Passwords" Parameter="passwords" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

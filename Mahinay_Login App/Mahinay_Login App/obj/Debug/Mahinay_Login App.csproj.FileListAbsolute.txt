@@ -1,0 +1,11 @@
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\bin\Debug\Mahinay_Login App.exe.config
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\bin\Debug\Mahinay_Login App.exe
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\bin\Debug\Mahinay_Login App.pdb
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login App.csproj.AssemblyReference.cache
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login_App.Form1.resources
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login_App.Properties.Resources.resources
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login App.csproj.GenerateResource.cache
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login App.csproj.CoreCompileInputs.cache
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login App.exe
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login App.pdb
+C:\Users\mahin\source\repos\Mahinay_Login App\Mahinay_Login App\obj\Debug\Mahinay_Login_App.Form2.resources
